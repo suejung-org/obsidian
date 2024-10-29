@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ES2020",
+    "allowJs": false,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strict": true,
+    "noEmit": true,
+    "declaration": true,
+    "sourceMap": true
+  },
+  "exclude": ["node_modules", "**/node_modules/*", "dist/**/*", "./instrument"],
+  "files": ["./server.ts"]
+}
